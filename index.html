@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ivory &amp; Grace — Wedding Planning</title>
+  <meta name="description" content="Ivory &amp; Grace offers elegant partial wedding planning with thoughtful design add‑ons.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Using system fonts for performance; swap to brand fonts later if desired -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Ivory and Grace Home">
+        <!-- Minimal inline mark: one-line flower + wordmark -->
+        <img class="brand-mark" src="logo.png" alt="" aria-hidden="true">
+          <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M60 82 C60 70, 70 62, 70 50
+                   M70 50 Q66 42 58 46 Q60 38 68 38 Q76 38 78 46 Q82 42 88 46 Q86 52 80 54 Q74 56 70 50
+                   M60 82 Q56 76 48 72" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        
+        <span class="brand-text">Ivory &amp; Grace</span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#work">Gallery</a></li>
+          <li><a href="#praise">Kind Words</a></li>
+          <li><a href="#contact" class="btn btn--ghost">Book Consult</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero_title">Where your love story meets effortless planning.</h1>
+          <p id="hero_text">I offer refined <strong>partial wedding planning</strong> with warm, personal guidance and thoughtful design add‑ons — so you stay in creative control while I make the journey simple and seamless.</p>
+          <div class="cta">
+            <a href="#contact" class="btn">Book a Complimentary Consultation</a>
+            <a href="#services" class="btn btn--ghost">Explore Services</a>
+          </div>
+        </div>
+        <figure class="hero-card" aria-label="Moodboard preview"><img id="hero_image" src="" alt="" />
+          <figcaption class="visually-hidden">Soft, elegant moodboard: ivory textures, florals, tablescape.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="services_heading">Services</h2>
+          <p class="lead" id="services_sub">Elegant guidance, modern structure, and beautiful details.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Partial Planning</h3>
+            <ul class="checklist" id="services_list"></ul>
+            <p class="small">You make the final selections — I handle the legwork and keep everything on track.</p>
+          </article>
+
+          <article class="card">
+            <h3>Design Add‑Ons</h3>
+            <ul class="checklist" id="design_addons"></ul>
+            <p class="small">Choose any add‑ons to elevate your day with a cohesive, elegant look.</p>
+          </article>
+
+          <article class="card">
+            <h3>What I Don’t Do</h3>
+            <ul class="checklist" id="dont_do"></ul>
+            <p class="small">I’ll research and advise, you decide — then I coordinate with your chosen team.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach / Process -->
+    <section id="approach" class="section alt">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="approach_heading">The Ivory &amp; Grace Approach</h2>
+          <p class="lead" id="approach_sub">Calm, organized, and beautifully intentional.</p>
+        </header>
+        <ol class="steps" id="approach_steps"></ol>
+      </div>
+    </section>
+
+    <!-- Gallery / Work -->
+    <section id="work" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="gallery_heading">Gallery</h2>
+          <p class="lead" id="gallery_sub">A glimpse of the aesthetic: clean lines, soft textures, romantic detail.</p>
+        </header>
+        <div class="gallery" id="gallery_grid"></div>
+      </div>
+    </section>
+
+    <!-- Praise / Testimonials -->
+    <section id="praise" class="section alt">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="praise_heading">Kind Words</h2>
+        </header>
+        <div class="quotes">
+          <blockquote>
+            “Calm, organized, and so kind. Our day felt effortless.”
+            <cite>— A &amp; J</cite>
+          </blockquote>
+          <blockquote>
+            “Her design eye pulled everything together — it finally felt like us.”
+            <cite>— M &amp; T</cite>
+          </blockquote>
+          <blockquote>
+            “We loved being in control while still having a pro handle the details.”
+            <cite>— R &amp; L</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <header class="section-head">
+          <h2 id="contact_heading">Begin Your Journey</h2>
+          <p class="lead" id="contact_sub">Tell me a bit about your day and I’ll follow up within 48 hours.</p>
+        </header>
+
+        <form class="inquiry" action="#" method="post" aria-label="Inquiry form">
+          <div class="grid">
+            <label> Your Name
+              <input type="text" name="name" required>
+            </label>
+            <label> Partner’s Name
+              <input type="text" name="partner">
+            </label>
+            <label> Email
+              <input type="email" name="email" required>
+            </label>
+            <label> Phone
+              <input type="tel" name="phone">
+            </label>
+            <label> Wedding Date / Season
+              <input type="text" name="date">
+            </label>
+            <label> Location / Venue
+              <input type="text" name="location">
+            </label>
+            <label class="full"> Estimated Guests
+              <select name="guests">
+                <option value="">Select…</option>
+                <option>Under 50</option>
+                <option>50–100</option>
+                <option>100–150</option>
+                <option>150–200</option>
+                <option>200+</option>
+              </select>
+            </label>
+            <fieldset class="full">
+              <legend>Services of Interest</legend>
+              <label class="opt"><input type="checkbox" name="svc" value="partial"> Partial Planning</label>
+              <label class="opt"><input type="checkbox" name="svc" value="invites"> PDF Invitations &amp; Save‑the‑Dates</label>
+              <label class="opt"><input type="checkbox" name="svc" value="board"> Inspiration Board (PDF)</label>
+              <label class="opt"><input type="checkbox" name="svc" value="numbers"> Table Number PDFs</label>
+              <label class="opt"><input type="checkbox" name="svc" value="centerpieces"> Centerpiece Design Concepts</label>
+            </fieldset>
+            <label class="full"> Your Vision
+              <textarea name="message" rows="5" placeholder="Tell me a little about your style, colors, and must‑haves…"></textarea>
+            </label>
+          </div>
+          <button class="btn" type="submit">Submit Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="y"></span> Ivory &amp; Grace. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Small helpers
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('navMenu');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !open);
+      menu.classList.toggle('open');
+    });
+  </script>
+
+  <script>
+    async function loadSiteContent(){
+      try{
+        const res = await fetch('content/site.json', {cache: 'no-cache'});
+        if(!res.ok) return;
+        const data = await res.json();
+        const setHTML = (id, html) => { const el = document.getElementById(id); if(el && html){ el.innerHTML = html; } };
+
+        setHTML('hero_title', data.hero_title);
+        setHTML('hero_text', data.hero_text);
+        setHTML('services_heading', data.services_heading);
+        setHTML('services_sub', data.services_sub);
+        setHTML('approach_heading', data.approach_heading);
+        setHTML('approach_sub', data.approach_sub);
+        setHTML('gallery_heading', data.gallery_heading);
+        setHTML('gallery_sub', data.gallery_sub);
+        setHTML('praise_heading', data.praise_heading);
+        setHTML('contact_heading', data.contact_heading);
+        setHTML('contact_sub', data.contact_sub);
+        // Testimonials (simple replacement)
+        if(Array.isArray(data.testimonials)){
+          const quotes = document.querySelector('.quotes');
+          if(quotes){
+            quotes.innerHTML = data.testimonials.map(q => (
+              `<blockquote>${q.quote}<cite>— ${q.cite}</cite></blockquote>`
+            )).join('');
+          }
+        }
+      }catch(e){ console.warn('Content load failed', e); }
+    }
+    loadSiteContent();
+  </script>
+
+
+  <script>
+    async function loadSiteContent(){
+      try{
+        const res = await fetch('content/site.json', {cache: 'no-cache'});
+        if(!res.ok) return;
+        const data = await res.json();
+        const setHTML = (id, html) => { const el = document.getElementById(id); if(el && html){ el.innerHTML = html; } };
+
+        // Simple fields
+        setHTML('hero_title', data.hero_title);
+        setHTML('hero_text', data.hero_text);
+        setHTML('services_heading', data.services_heading);
+        setHTML('services_sub', data.services_sub);
+        setHTML('approach_heading', data.approach_heading);
+        setHTML('approach_sub', data.approach_sub);
+        setHTML('gallery_heading', data.gallery_heading);
+        setHTML('gallery_sub', data.gallery_sub);
+        setHTML('praise_heading', data.praise_heading);
+        setHTML('contact_heading', data.contact_heading);
+        setHTML('contact_sub', data.contact_sub);
+
+        // Hero image
+        if(data.hero_image){
+          const img = document.getElementById('hero_image');
+          if(img){
+            img.src = data.hero_image.src || '';
+            img.alt = data.hero_image.alt || '';
+          }
+        }
+
+        // Lists
+        function renderList(id, items){
+          const el = document.getElementById(id);
+          if(!el || !Array.isArray(items)) return;
+          el.innerHTML = items.map(i => `<li>${i}</li>`).join('');
+        }
+        renderList('services_list', data.services_list);
+        renderList('design_addons', data.design_addons);
+        renderList('dont_do', data.dont_do);
+
+        // Approach steps
+        const steps = document.getElementById('approach_steps');
+        if(steps && Array.isArray(data.approach_steps)){
+          steps.innerHTML = data.approach_steps.map((s, idx) => `
+            <li>
+              <h3>${idx+1}. ${s.title || ''}</h3>
+              <p>${s.text || ''}</p>
+            </li>`).join('');
+        }
+
+        // Testimonials
+        if(Array.isArray(data.testimonials)){
+          const quotes = document.querySelector('.quotes');
+          if(quotes){
+            quotes.innerHTML = data.testimonials.map(q => (
+              `<blockquote>${q.quote}<cite>— ${q.cite}</cite></blockquote>`
+            )).join('');
+          }
+        }
+
+        // Gallery
+        const grid = document.getElementById('gallery_grid');
+        if(grid && Array.isArray(data.gallery)){
+          grid.innerHTML = data.gallery.map(g => `
+            <figure class="tile" style="background-image:url('${g.src}');">
+              <figcaption class="visually-hidden">${g.alt || ''}</figcaption>
+            </figure>`).join('');
+        }
+      }catch(e){ console.warn('Content load failed', e); }
+    }
+    loadSiteContent();
+  </script>
+
+</body>
+</html>
