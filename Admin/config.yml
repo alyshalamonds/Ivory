@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - file: "content/site.json"
+        label: "Homepage Content"
+        name: "homepage"
+        fields:
+          - {label: "Hero Title", name: "hero_title", widget: "string"}
+          - {label: "Hero Text (HTML allowed)", name: "hero_text", widget: "text"}
+          - {label: "Hero Image", name: "hero_image", widget: "object", fields: [
+              {label: "Image", name: "src", widget: "image"},
+              {label: "Alt Text", name: "alt", widget: "string"}
+            ]}
+          - {label: "Services Heading", name: "services_heading", widget: "string"}
+          - {label: "Services Subheading", name: "services_sub", widget: "string"}
+          - {label: "Services List", name: "services_list", widget: "list", field: {label: "Item", name: "item", widget: "string"}}
+          - {label: "Design Add‑Ons", name: "design_addons", widget: "list", field: {label: "Item", name: "item", widget: "string"}}
+          - {label: "What I Don't Do", name: "dont_do", widget: "list", field: {label: "Item", name: "item", widget: "string"}}
+          - {label: "Approach Heading", name: "approach_heading", widget: "string"}
+          - {label: "Approach Subheading", name: "approach_sub", widget: "string"}
+          - {label: "Approach Steps", name: "approach_steps", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Text", name: "text", widget: "text"}
+            ]}
+          - {label: "Gallery Heading", name: "gallery_heading", widget: "string"}
+          - {label: "Gallery Subheading", name: "gallery_sub", widget: "string"}
+          - {label: "Gallery Images", name: "gallery", widget: "list", fields: [
+              {label: "Image", name: "src", widget: "image"},
+              {label: "Alt Text", name: "alt", widget: "string"}
+            ]}
+          - {label: "Testimonials", name: "testimonials", widget: "list", fields: [
+              {label: "Quote", name: "quote", widget: "text"},
+              {label: "Cite", name: "cite", widget: "string"}
+            ]}
+          - {label: "Contact Heading", name: "contact_heading", widget: "string"}
+          - {label: "Contact Subheading", name: "contact_sub", widget: "string"}
