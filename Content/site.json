@@ -1,0 +1,97 @@
+{
+  "hero_title": "Where your love story meets effortless planning.",
+  "hero_text": "I offer refined <strong>partial wedding planning</strong> with warm, personal guidance and thoughtful design add\u2011ons \u2014 so you stay in creative control while I make the journey simple and seamless.",
+  "services_heading": "Services",
+  "services_sub": "Elegant guidance, modern structure, and beautiful details.",
+  "approach_heading": "The Ivory &amp; Grace Approach",
+  "approach_sub": "Calm, organized, and beautifully intentional.",
+  "gallery_heading": "Gallery",
+  "gallery_sub": "A glimpse of the aesthetic: clean lines, soft textures, romantic detail.",
+  "praise_heading": "Kind Words",
+  "contact_heading": "Begin Your Journey",
+  "contact_sub": "Tell me a bit about your day and I\u2019ll follow up within 48 hours.",
+  "testimonials": [
+    {
+      "quote": "\u201cCalm, organized, and so kind. Our day felt effortless.\u201d",
+      "cite": "A & J"
+    },
+    {
+      "quote": "\u201cHer design eye pulled everything together \u2014 it finally felt like us.\u201d",
+      "cite": "M & T"
+    },
+    {
+      "quote": "\u201cWe loved being in control while still having a pro handle the details.\u201d",
+      "cite": "R & L"
+    }
+  ],
+  "services_list": [
+    "In\u2011depth vision & priorities consultation",
+    "Curated vendor research & recommendations",
+    "Vendor communication after you choose",
+    "Custom planning timeline and check\u2011ins",
+    "Cohesive styling support"
+  ],
+  "design_addons": [
+    "Custom PDF invitations & save\u2011the\u2011dates",
+    "Inspiration boards (PDF)",
+    "Table number PDFs",
+    "Centerpiece design concepts",
+    "Other small design touches"
+  ],
+  "dont_do": [
+    "No vendor selection on your behalf",
+    "No full\u2011service planning"
+  ],
+  "approach_steps": [
+    {
+      "title": "Listen & Learn",
+      "text": "We begin with a relaxed consult to understand your story, style, and priorities."
+    },
+    {
+      "title": "Curate & Recommend",
+      "text": "I research vendors that fit your vision and budget and present clear, thoughtful options."
+    },
+    {
+      "title": "You Choose",
+      "text": "You make the decisions. I\u2019m here with guidance and clarity, never pressure."
+    },
+    {
+      "title": "Coordinate & Refine",
+      "text": "Once selected, I liaise with your vendors, shape timelines, and keep everything aligned."
+    },
+    {
+      "title": "Polish the Details",
+      "text": "Optional design add\u2011ons ensure your celebration looks as graceful as it feels."
+    }
+  ],
+  "hero_image": {
+    "src": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
+    "alt": "Elegant wedding details"
+  },
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Tablescape"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Florals"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Stationery"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Bridal details"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1520962918287-7448c2878f65?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Ceremony arch"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Reception ambiance"
+    }
+  ]
+}
